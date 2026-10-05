@@ -1,0 +1,5 @@
+services:
+  app:
+    command: ["python", "app.py"]
+    volumes: ["./app:/app"]
+    environment: {FLASK_DEBUG: "1"}
